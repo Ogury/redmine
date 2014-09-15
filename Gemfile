@@ -84,6 +84,11 @@ group :development do
   gem "yard"
 end
 
+group :production do
+  # gems specifically for Heroku go here
+  gem "pg", ">= 0.11.0" 
+end
+
 group :test do
   gem "shoulda", "~> 3.3.2"
   gem "mocha", "~> 1.0.0", :require => 'mocha/api'
