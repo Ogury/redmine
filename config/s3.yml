@@ -1,0 +1,17 @@
+production:
+  access_key_id:  "AKIAJP4UDVA5DPLQJKIA"
+  secret_access_key: "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"
+  bucket: "ogury-redmine"
+  secure: true
+  private: true
+  expires: 10000
+  proxy: false
+
+development:
+  access_key_id:  "AKIAJP4UDVA5DPLQJKIA"
+  secret_access_key: "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"
+  bucket: "ogury-redmine"
+  secure: true
+  private: true
+  expires: 10000
+  proxy: false
