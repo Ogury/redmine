@@ -1,3 +1,0 @@
-source 'https://rubygems.org'
-
-gem 'dispatcher', '~> 0.0.1'
