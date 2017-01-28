@@ -1,6 +1,6 @@
 production:
-  access_key_id:  "AKIAJP4UDVA5DPLQJKIA"
-  secret_access_key: "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"
+  access_key_id: <%= ENV['AWS_ACCESS_KEY_ID'] %>
+  secret_access_key: <%= ENV['AWS_SECRET_ACCESS_KEY'] %>
   bucket: "ogury-redmine"
   secure: true
   private: true
@@ -8,8 +8,8 @@ production:
   proxy: false
 
 development:
-  access_key_id:  "AKIAJP4UDVA5DPLQJKIA"
-  secret_access_key: "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"
+  access_key_id: <%= ENV['AWS_ACCESS_KEY_ID'] %>
+  secret_access_key: <%= ENV['AWS_SECRET_ACCESS_KEY'] %>
   bucket: "ogury-redmine"
   secure: true
   private: true
